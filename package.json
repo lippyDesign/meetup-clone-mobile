@@ -1,0 +1,31 @@
+{
+  "name": "meetupme-mobile",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": "Volodymyr Lipunov",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "rndebugger-open"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "expo": "17.0.0",
+    "moment": "^2.18.1",
+    "react": "16.0.0-alpha.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
+    "react-native-elements": "^0.16.0",
+    "react-native-extended-stylesheet": "^0.6.0",
+    "react-native-modal-datetime-picker": "^4.9.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-form": "^7.0.3",
+    "redux-promise-middleware": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint-config-equimper": "^2.2.1",
+    "react-native-debugger-open": "^0.3.12",
+    "redux-logger": "^3.0.6"
+  }
+}
